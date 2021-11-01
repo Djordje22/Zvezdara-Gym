@@ -1,0 +1,411 @@
+*{		
+	margin:0px;
+	padding:0px;
+}
+body {
+	background-color:#58595b;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+#wrapper{
+	width:100%;
+	height:600px;
+}
+#top{
+	background-position:center center;
+	background-size:cover;
+	width:100%;
+	height:inherit;
+	position:relative;
+	background-image:url('../images/main.jpg');
+	background-repeat:no-repeat;
+}
+#top img{
+	width:100%;
+	height:600px;
+}
+#naslov{
+	width:100%;
+	height:80px;
+	text-align:center;
+	position:absolute;
+	top:40%;
+	
+}
+#naslov h1{
+	font-size:80px;
+	color:white;
+}
+#logo {
+	position:absolute;
+	top:7%;
+	left:3%;
+	width:30%;
+	height:200px;
+}
+#logo img{
+	width:110px;
+	height:110px;
+}
+#ikone{
+	position:absolute;
+	width:100%;
+	height:70px;
+	bottom:0px;
+}
+#sredina{
+	width:1000px;
+	height:70px;
+	margin:0px auto;
+}
+.stavka{
+	width:24%;
+	height:60px;
+	float:left;
+	margin:5px;
+}
+#ikone img{
+	width:64px;
+	height:64px;
+	float:left;
+}
+#ikone p {
+	float:left;
+	margin-top:20px;
+	margin-left:10px;
+	color:white;
+	font-size:20px;
+}
+#ikone span{
+	font-size:40px;
+}
+#wrapper2 {
+	width:100%;
+	height:100px;
+	background-color:#3f3f3f;
+}
+#header{
+	width:1000px;
+	height:inherit;
+	margin:0px auto;
+	background-color:#3f3f3f;
+}
+#menu {
+	width:930px;
+	height:inherit;
+	float:left;
+	display:block;
+	margin-left:35px;
+}
+#menu ul{
+	list-style-type:none;
+}
+#menu li{
+	float:left;
+}
+#menu li a{
+	text-decoration:none;
+	color:white;
+	padding:35px 20px 30px ;
+	display:block;
+	margin:7px;
+}
+#menu li a:hover{
+	border-bottom:7px solid yellow;
+	transition:0.3s;
+}
+#menu .a{
+	border-bottom:7px solid yellow;
+}
+#wrapper3{
+	width:100%;
+	height:300px;
+}
+#top2{
+	width:1000px;
+	height:inherit;
+	margin:0px auto;
+}
+#naslov2{
+	width:inherit;
+	height:100px;
+	float:left;
+}
+#naslov2 h1{
+	margin-top:20px;
+	margin-left:10px;
+	color:white;
+	font-size:45px;
+}
+#mini-naslov{
+	width:inherit;
+	height:180px;
+	margin-top:10px;
+	float:left;
+}
+.text{
+	width:475px;
+	height:200px;
+	float:left;
+	margin:12px;
+	color:white;
+}
+#wrapper4{
+	width:100%;
+	height:400px;
+}
+#top3{
+	width:1000px;
+	height:inherit;
+	margin:0px auto;
+}
+#naslov3{
+	width:inherit;
+	height:100px;
+	float:left;
+}
+#naslov3 h1{
+	margin-top:20px;
+	color:white;
+	font-size:50px;
+}
+#container{
+	position:relative;
+	width:600px;
+	height:280px;
+	float:left;
+}
+#container img{
+	width:590px;
+	height:270px;
+	margin:4px;
+	border-radius:2px;
+	transition: opacity 0.5s ease-in-out;
+}
+#container img:hover{
+	opacity:0.6;
+}
+.text2{
+	position:absolute;
+	top:200px;
+	left:4px;
+	width:350px;
+	height:30px;
+	font-size:25px;
+	text-transform:uppercase;
+	color:white;
+}
+.text2 span{
+	font-size:17px;
+}
+#container2{
+	position:relative;
+	width:380px;
+	height:280px;
+	float:right;
+}
+#container2 img{
+	width:360px;
+	height:270px;
+	margin:4px;
+	border-radius:2px;
+	transition: opacity 0.5s ease-in-out;
+}
+#container2 img:hover{
+	opacity:0.6;
+}
+.text3{
+	position:absolute;
+	top:200px;
+	right:25px;
+	width:350px;
+	height:30px;
+	font-size:25px;
+	text-transform:uppercase;
+	color:white;
+}
+.text3 span{
+	font-size:17px;
+}
+#wrapper5{
+	width:100%;
+	height:550px;
+	background-color:#292a2b;
+}
+#top4{
+	width:1000px;
+	height:inherit;
+	margin:0px auto;
+	background-color:#292a2b;
+}
+#naslov4{
+	width:inherit;
+	height:150px;
+	float:left;
+	color:white;
+	font-weight:900;
+}
+#naslov4 h1{
+	margin-top:35px;
+	line-height:200%;
+	margin-left:4px;
+}
+#naslov4 p{
+	margin-left:4px;
+}
+#container3{
+	width:inherit;
+	height:290px;
+	float:left;
+}
+.stavka2{
+	width:inherit;
+	height:95px;
+	float:left;
+}
+input[type=text] {
+    width: 25%;
+    padding: 20px 30px;
+    margin: 2px;
+	margin-top:18px;
+	margin-left:12px;
+	border:2px solid yellow;
+	background-color:#292a2b;
+	color:white;
+}
+select{
+	width: 31.4%;
+    padding: 19px 30px;
+    margin: 2px;
+	margin-top:18px;
+	margin-left:12px;
+	border:2px solid yellow;
+	background-color:#292a2b;
+	color:white;
+}
+input[type=date] {
+    width: 25%;
+    padding: 20px 30px;
+    margin: 2px;
+	margin-left:12px;
+	border:2px solid yellow;
+	background-color:#292a2b;
+	color:white;
+}
+input[type=submit]{
+	width: 31.4%;
+    background-color: yellow;
+	border:none;
+    color: #292a2b;
+    padding: 20px 30px;
+    text-decoration: none;
+    margin: 2px;
+	margin-top:18px;
+	margin-left:12px;
+    cursor: pointer;
+	font-weight:900;
+	transition:0.3s ease-in-out;
+}
+input[type=submit]:hover{
+	background-color:#292a2b;
+    color:white;
+	border:2px solid yellow;
+}
+#wrapper6{
+	width:100%;
+	height:150px;
+	background-color:#383838;
+}
+#bottom{
+	width:1000px;
+	height:inherit;
+	margin:0px auto;
+	background-color:#383838;
+}
+#logo2{
+	width:300px;
+	height:inherit;
+	float:left;
+}
+#logo2 img{
+	width:110px;
+	height:110px;
+}
+#container4{
+	width:650px;
+	height:inherit;
+	float:right;
+}
+#naslov5{
+	width:inherit;
+	height:30px;
+	float:right;
+	color:white;
+	font-weight:900;
+}
+#naslov5 p{
+	text-align:right;
+}
+#ikone2{
+	width:inherit;
+	height:120px;
+	float:right;
+}
+#ikone2 img{
+	float:right;
+	margin:1%;
+	margin-right:6px;
+	transition: 0.5s ease-in-out;
+}
+#ikone2 img:hover{
+	transition: 0.5s ease-in-out;
+}
+#wrapper7{
+	width:100%;
+	height:130px;
+	background-color:#292a2b;
+}
+#bottom2{
+	width:1000px;
+	height:inherit;
+	margin:0px auto;
+	background-color:#292a2b;
+}
+#naslov6{
+	width:200px;
+	height:30px;
+	float:left;
+	font-size:20px;
+	font-weight:900;
+	color:white;
+}
+#container5{
+	width:1000px;
+	height:100px;
+	float:left;
+}
+#container5 img{
+	margin:2px;
+	margin-right:10px;
+}
+#wrapper8{
+	width:100%;
+	height:40px;
+	background-color:#292a2b;
+}
+#bottom3{
+	width:1000px;
+	height:inherit;
+	margin:0px auto;
+	background-color:#292a2b;
+}
+#naslov7{
+	width:1000px;
+	height:inherit;
+	float:right;
+	font-weight:400;
+	text-align:center;
+	color:#a1a1a1;
+}
+#naslov7 p{
+	margin-top:20px;
+}
